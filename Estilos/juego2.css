@@ -59,8 +59,7 @@
     display: none;
 }
 #versus img{
-    width: 150px;
-    height: 150px;
+    
 }
 #versus p{
     margin: 20px 0 0px 0;
@@ -70,10 +69,21 @@
     color:aliceblue;
 }
 #suE{
+    width: 150px;
+    height: 150px;
     animation: float 1.5s ease-in-out infinite;
 }
 #tuE{
+    width: 150px;
+    height: 150px;
     animation: float 1.5s ease-in-out infinite;
+}
+#reiniciar{
+    margin-left: 80px;
+    margin-top: 160px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
 }
 @keyframes float {
 	0% {
