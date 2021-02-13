@@ -1,7 +1,23 @@
 .superior{
 	margin:4vh 0;
 	display:flex;
-	border: solid 2px black;
+	font-family: "Poppins", sans-serif;
+}
+.maspedidos{
+	display:flex;
+	justify-content: space-around;
+	margin: 3vh 5vh;
+	border: 4px rgb(117, 8, 190) dashed;
+	height: 250px;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5vh;
+}
+.maspedidos div{
+	text-align: center;
+	align-items: center;
+}
+.maspedidos div img{
+	width: 120px;
 }
 .intro p{
 	font-size: 3vh;
@@ -13,17 +29,12 @@
 	text-align: justify;
 	margin: 2%;
 }
+.intro2{
+	margin-top: 20vh;
+}
 #bookiller{
 	font-family: sans-serif;
 	font-size: 4vh;
-}
-
-.texto{
-	border: solid 2px black;
-}
-
-.publicidad{
-	border: solid 2px black;	
 }
 #contenido{
 	display: flex;
@@ -47,22 +58,25 @@
 	height: 70%;
 }
 @media screen and (max-width: 768px){
+	.anuncio{
+		display:none;		
+	}
+	.publicidad{
+		display:none;		
+	}
+	#intro2 img{
+		display:none;		
+	}
 	#contenido2 .libro{
 		display:none;		
 	}
 }
-@media screen and (max-width: 768px){
-	#intro2 img{
-		display:none;		
+@media screen and (max-width: 1024px){
+	.maspedidos{
+		height: 500px;
+	}
+	.maspedidos{
+		flex-direction: column;
 	}
 }
-@media screen and (max-width: 768px){
-	.anuncio{
-		display:none;		
-	}
-}
-@media screen and (max-width: 768px){
-	.publicidad{
-		display:none;		
-	}
-}
+
