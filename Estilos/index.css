@@ -58,6 +58,11 @@
 	width: 35%;
 	height: 70%;
 }
+.carru{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(124, 32, 230);
+}
 @media screen and (max-width: 768px){
 	.anuncio{
 		display:none;		
