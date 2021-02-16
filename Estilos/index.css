@@ -5,10 +5,11 @@
 }
 .maspedidos{
 	display:flex;
+	align-items: center;
 	justify-content: space-around;
 	margin: 3vh 5vh;
 	border: 4px rgb(117, 8, 190) dashed;
-	height: 250px;
+	height: 280px;
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5vh;
 }
@@ -81,7 +82,7 @@
 }
 @media screen and (max-width: 1024px){
 	.maspedidos{
-		height: 500px;
+		height: 550px;
 	}
 	.maspedidos{
 		flex-direction: column;

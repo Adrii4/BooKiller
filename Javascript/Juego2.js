@@ -64,15 +64,16 @@ function quienGana(a){//funcion que muestra la pantalla de las dos elecciones
     if(suE==1){//condicion para mostrar su eleccion
         document.getElementById("suE").src="Imagenes/PiedraE.png";
     } else if(suE==2){
-        document.getElementById("suE").src="Imagenes/PapelE.png"
+        document.getElementById("suE").src="Imagenes/PapelE.png";
     } else{
-        document.getElementById("suE").src="Imagenes/TijeraE.png"
+        document.getElementById("suE").src="Imagenes/TijeraE.png";
     }
     if(a==1){//condicion para mostrar tu eleccion
         document.getElementById("tuE").src="Imagenes/Piedra.png";
     } else if(a==2){
-        document.getElementById("tuE").src="Imagenes/Papel.png"
+        document.getElementById("tuE").src="Imagenes/Papel.png";
     } else{
-        document.getElementById("tuE").src="Imagenes/Tijera.png"     
+        document.getElementById("tuE").src="Imagenes/Tijera.png";   
     }
 }
+
