@@ -1,6 +1,5 @@
 .superior{
 	margin:4vh 0;
-	display:flex;
 	font-family: "Poppins", sans-serif;
 }
 .maspedidos{
@@ -31,6 +30,7 @@
 	margin: 2%;
 }
 .intro2{
+	display: flex;
 	margin-top: 20vh;
 	font-family: "Poppins", sans-serif;
 }
