@@ -1,0 +1,31 @@
+#tabla{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+table{
+    background-color: aliceblue;
+    margin: 150px 0 160px 0;
+    padding: 30px 15px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
+}
+td{
+    padding: 10px 5px;
+}
+.titulo{
+    font-weight:bold;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+#mayus{
+    text-transform: uppercase;
+}
+#center{
+    text-align: center;
+}
+#primaria{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.3);
+}
